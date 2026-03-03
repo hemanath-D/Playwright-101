@@ -1,0 +1,39 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/crypto-js": "^4.2.2",
+    "allure-playwright": "^3.4.2",
+    "playwright": "^1.53.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@shubhu/pdfdiff": "^1.6.0",
+    "axios": "^1.13.2",
+    "canvas": "^3.2.1",
+    "crypto-js": "^4.2.0",
+    "exceljs": "^4.4.0",
+    "fs-extra": "^11.3.3",
+    "pdf-parse": "^1.1.1",
+    "pdf-visual-diff": "^0.15.2",
+    "pdfjs-dist": "^5.4.530",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
+}
